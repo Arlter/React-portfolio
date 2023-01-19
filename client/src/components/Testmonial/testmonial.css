@@ -1,0 +1,93 @@
+.testmonial-section{
+    height:auto;
+    padding: 20px;
+}
+
+.content-card{
+    margin-top: 80px;
+    padding: 10px; /* to give some space between the border and the text */
+    color:black;
+    box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    cursor: pointer;
+    text-align: left;
+}
+
+.content-card:hover{
+    background-color: brown;
+    color:white;
+    box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    transition-duration: 1s;
+    cursor: pointer;
+
+}
+
+.content-card img{
+    border-radius: 90px;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    margin-top: -30px;
+    border: 3px solid white;
+}
+
+.content-card span{
+    color: orange;
+    font-size: 20px;
+    font-weight: 80px;
+}
+.load-more-button{
+    background-color: #38004c;
+    width: 15%;
+    padding: 5px;
+    color: white;
+    display:block;
+    margin: auto;
+    border-radius: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.load-more-button:hover{
+    background-color: green;
+    transition-duration: 1s;
+}
+
+.marked-content-card{
+
+    margin-top: 80px;
+    padding: 10px; /* to give some space between the border and the text */
+    cursor: pointer;
+    text-align: left;
+    background-color: brown;
+    color:white;
+
+}
+
+.marked-content-card img{
+    border-radius: 90px;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    margin-top: -30px;
+    border: 3px solid white;
+}
+
+.marked-content-card:hover{
+    box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+
+.marked-content-card span{
+    color: orange;
+    font-size: 20px;
+    font-weight: 80px;
+}

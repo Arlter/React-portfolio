@@ -1,0 +1,56 @@
+.subscription{
+    height:400px;
+    color: white;
+    background-color: rgba(208, 19, 164, 0.571);
+    position: relative; /* to position the absolute elements */
+    margin-top:30px ;
+    margin-bottom: -60px;
+}
+
+.subscription:before{
+    content: "";
+    background: url("./../../Image/about.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: -1; /* to put the image behind the text */
+}
+
+.subscription-title h5{
+    text-align: center;
+    margin-top: 40px;
+    color: yellow;
+    font-weight: 200px;
+}
+
+.subscription-form input{
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    color: black;
+    margin-bottom: 20px;
+    border: 0;
+}
+
+.subscription-button{
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    display: block;
+    background-color: black;
+    margin: auto;
+    width: 50%;
+    cursor: pointer;
+}
+
+.subscription-button:hover{
+    border: 1px solid green;
+    background-color: white;
+    transition: 1s;
+    color: green ;
+}

@@ -1,0 +1,53 @@
+.home{
+    height: 100vh; /* 100% of the viewport, on top of the class from bootstrap */
+    color: white;
+    background-color: #cd5c5cda;
+    position: relative; /* to position the absolute elements */
+
+}
+
+.home:before{
+    content: "";
+    background: url("./../../Image/about.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: -1; /* to put the image behind the text */
+}
+
+.home-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.home-content p{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: 1%;    
+}
+.view-details-button{
+    background-color: #F7D010;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.view-details-button:hover{
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    color:black;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
